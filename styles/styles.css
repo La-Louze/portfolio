@@ -145,6 +145,7 @@ span{
 }
 
 .botton_accent{
+    color: black;
     background-color: var(--accent-color);
 }
 
@@ -450,9 +451,7 @@ span{
         overflow: hidden;
     }
 
-    .header__menu{
-        display: none;
-    }
+
 
     .card_work {
         width: 100%;              /* на всю ширину */
@@ -481,6 +480,10 @@ span{
         gap: 20px;
         flex-direction: column-reverse;
         align-items: flex-start;
+    }
+
+    .header__menu{
+        display: none;
     }
 
 }
